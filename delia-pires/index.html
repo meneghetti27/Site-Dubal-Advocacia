@@ -442,7 +442,8 @@ form{box-shadow:0 40px 80px -40px rgba(13,12,10,.55)}
 .member.rv.in:hover{transform:translateY(-8px);box-shadow:0 40px 70px -40px rgba(13,12,10,.4)}
 .member .ph{border-radius:calc(var(--r) - 4px)}
 .member .role,.member h3,.member .bio,.member .mail{margin-left:10px;margin-right:10px}
-.member .mail{display:inline-flex}
+.member{display:flex;flex-direction:column}
+.member .mail{display:inline-flex;align-self:flex-start;margin-top:auto;word-break:normal}
 .member .ph::before{content:"De Lia Pires";position:absolute;left:14px;bottom:14px;z-index:2;font:500 10.5px/1 var(--sans);letter-spacing:.2em;text-transform:uppercase;color:var(--paper);padding:9px 14px;border-radius:999px;background:rgba(13,12,10,.35);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border:1px solid rgba(243,238,228,.25);opacity:0;transform:translateY(8px);transition:opacity .5s,transform .5s var(--ease)}
 .member:hover .ph::before{opacity:1;transform:none}
 /* award facts + dates as soft cards */
@@ -823,28 +824,28 @@ form{box-shadow:0 40px 80px -40px rgba(13,12,10,.55)}
           <div class="role">Sócio Diretor</div>
           <h3>Flávio Barros de Lia Pires</h3>
           <p class="bio">Diplomado pela PUCRS em 1984; Especialista em Direito Penal pela UNISINOS; Especialista em Processo Civil pela PUCRS (1991); Escola Superior da Magistratura – AJURIS (1988/89); Professor da Pós-Graduação em Direito Penal da UNISINOS (1995); ex-procurador dos Municípios de Tramandaí e Cidreira; Presidente do Instituto Lia Pires.</p>
-          <a class="mail" href="mailto:flavio@deliapiresadvogados.com.br"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="5" width="18" height="14"/><path d="m3 6 9 7 9-7"/></svg>flavio@deliapiresadvogados.com.br</a>
+          <a class="mail" href="mailto:flavio@deliapiresadvogados.com.br" title="flavio@deliapiresadvogados.com.br"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="5" width="18" height="14"/><path d="m3 6 9 7 9-7"/></svg>Enviar e-mail</a>
         </article>
         <article class="member rv d1">
           <div class="ph mask"><img src="assets/brunno.jpg" alt="Retrato de Brunno Ruschel de Lia Pires" loading="lazy" width="324" height="488"></div>
           <div class="role">Penal · Eleitoral · Civil</div>
           <h3>Brunno Ruschel de Lia Pires</h3>
           <p class="bio">Diplomado em Direito pela PUCRS; Especialista em Compliance pela PUCRS; Especialista em Direito Eleitoral pela PUCMG; Vice-Presidente do Instituto Lia Pires.</p>
-          <a class="mail" href="mailto:brunno@deliapiresadvogados.com.br"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="5" width="18" height="14"/><path d="m3 6 9 7 9-7"/></svg>brunno@deliapiresadvogados.com.br</a>
+          <a class="mail" href="mailto:brunno@deliapiresadvogados.com.br" title="brunno@deliapiresadvogados.com.br"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="5" width="18" height="14"/><path d="m3 6 9 7 9-7"/></svg>Enviar e-mail</a>
         </article>
         <article class="member rv d2">
           <div class="ph mask"><img src="assets/pedro.jpg" alt="Retrato de Pedro Guilherme Müller Kurban" loading="lazy" width="324" height="486"></div>
           <div class="role">Civil · Eleitoral · Penal</div>
           <h3>Pedro Guilherme Müller Kurban</h3>
           <p class="bio">Diplomado em Direito pela PUCRS; Especialista em Ciências Penais pela PUCRS; Especialista em Direito Eleitoral pela PUCMG; Mestre em Direito pela PUCRS; Doutorando CAPES/PROEX pela PUCRS; Professor de Direito Civil; Tesoureiro do Instituto Lia Pires.</p>
-          <a class="mail" href="mailto:pedro@deliapiresadvogados.com.br"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="5" width="18" height="14"/><path d="m3 6 9 7 9-7"/></svg>pedro@deliapiresadvogados.com.br</a>
+          <a class="mail" href="mailto:pedro@deliapiresadvogados.com.br" title="pedro@deliapiresadvogados.com.br"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="5" width="18" height="14"/><path d="m3 6 9 7 9-7"/></svg>Enviar e-mail</a>
         </article>
         <article class="member rv d3">
           <div class="ph mask"><img src="assets/gabriela.jpg" alt="Retrato de Gabriela Ruschel de Lia Pires" loading="lazy" width="324" height="582"></div>
           <div class="role">Direito Penal</div>
           <h3>Gabriela Ruschel de Lia Pires</h3>
           <p class="bio">Diplomada em Direito pela PUCRS; Especialista em Direito Penal e Processual Penal pela UNISINOS; Mestre em Ciências Criminais pela PUCRS; Doutoranda CAPES/PROEX em Ciências Criminais pela PUCRS; Secretária-Geral do Instituto Lia Pires.</p>
-          <a class="mail" href="mailto:gabriela@deliapiresadvogados.com.br"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="5" width="18" height="14"/><path d="m3 6 9 7 9-7"/></svg>gabriela@deliapiresadvogados.com.br</a>
+          <a class="mail" href="mailto:gabriela@deliapiresadvogados.com.br" title="gabriela@deliapiresadvogados.com.br"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="5" width="18" height="14"/><path d="m3 6 9 7 9-7"/></svg>Enviar e-mail</a>
         </article>
       </div>
     </div>
@@ -1078,12 +1079,15 @@ form{box-shadow:0 40px 80px -40px rgba(13,12,10,.55)}
     entries.forEach(function(en){
       if (!en.isIntersecting) return;
       en.target.classList.add('in');
+      en.target.querySelectorAll('.mask').forEach(function(m){ m.classList.add('in'); });
       en.target.querySelectorAll('[data-count]').forEach(count);
       if (en.target.dataset.count) count(en.target);
       io.unobserve(en.target);
     });
   }, {threshold:.15, rootMargin:'0px 0px -8% 0px'});
-  document.querySelectorAll('.rv,.mask,.tl-item').forEach(function(el){ io.observe(el); });
+  document.querySelectorAll('.rv,.tl-item').forEach(function(el){ io.observe(el); });
+  /* a clipped (hidden) element never reports as visible, so watch its container instead */
+  document.querySelectorAll('.mask').forEach(function(m){ io.observe(m.parentElement); });
 
   /* practice areas: spotlight + drawer */
   var dlg = document.getElementById('drawer'), data = document.getElementById('areaData').children, opener = null;
